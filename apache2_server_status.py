@@ -37,7 +37,7 @@ def _try_parse(x):
     return x
 
 
-def apache2_get_server_status(url='http://localhost/server-status'):
+def get_server_status(url='http://localhost/server-status'):
     """
     Fetches and parses the Apache HTTP Server status page to extract server statistics,
     specifically tailored for servers using the MPM_Event module. This function retrieves
@@ -99,5 +99,5 @@ def apache2_get_server_status(url='http://localhost/server-status'):
 
 if __name__ == "__main__":
     from pprint import pprint
-    stats = apache2_get_server_status()
+    stats = get_server_status()
     pprint(stats)
