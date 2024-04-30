@@ -1,6 +1,6 @@
 # apache_server_status 
 
-*apache_server_status* is a Python module to fetch and 
+**`apache_server_status`** is a Python module to fetch and 
 parse the Apache HTTP Server status page, focusing specifically 
 on servers utilizing the MPM_Event module. 
 
@@ -9,7 +9,7 @@ parses HTML content to extract key server metrics, and
 converts these metrics into various data types like integers, 
 floats, and ISO-formatted dates for easy analysis and monitoring.
 
-*Keywords*: apache, apache2, httpd, server-status, server-status scrapping, server-status to json, server-status parser
+**Keywords**: apache, apache2, httpd, server-status, server-status scrapping, server-status to json, server-status parser
 
 ## Features
 
